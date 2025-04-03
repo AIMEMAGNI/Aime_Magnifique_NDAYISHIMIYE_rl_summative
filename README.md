@@ -22,35 +22,6 @@ The environment consists of a 5x5 grid with the following features:
 - **Action Space:** The agent can perform one of four actions: up, down, left, or right (discrete actions).
 - **Rewards:** The environment includes positive rewards (green cells) and negative rewards (red cells). The agent aims to maximize the cumulative reward by navigating to positive rewards while avoiding negative ones.
 
-## Installation
-
-### Requirements
-- Python 3.x
-- Gymnasium
-- NumPy
-- Matplotlib
-- Stable-Baselines3 (SB3)
-
-To install the necessary dependencies, use the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Code
-
-To train the DQN agent, run:
-
-```bash
-python train_dqn.py
-```
-
-To train the PPO agent, run:
-
-```bash
-python train_ppo.py
-```
-
 ## Model Implementations
 
 ### DQN (Deep Q-Network)
