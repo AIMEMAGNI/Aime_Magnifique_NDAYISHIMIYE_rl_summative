@@ -2,7 +2,7 @@
 
 This repository contains a reinforcement learning (RL) implementation for a mission grid environment where an agent navigates a 5x5 grid, aiming to collect positive rewards while avoiding negative ones. The agent's task is to maximize the cumulative reward by exploring and learning through interactions with the environment.
 
-![Mission Grid Environment](env_visualization .gif)
+![Mission Grid Environment](env_visualization.gif)
 
 ## Project Overview
 
