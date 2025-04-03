@@ -2,6 +2,8 @@
 
 This repository contains a reinforcement learning (RL) implementation for a mission grid environment where an agent navigates a 5x5 grid, aiming to collect positive rewards while avoiding negative ones. The agent's task is to maximize the cumulative reward by exploring and learning through interactions with the environment.
 
+![Mission Grid Environment](env_visualization.gif)
+
 ## Project Overview
 
 In this project, we implement a reinforcement learning agent to solve a grid-based navigation problem. The agent starts at the top-left corner of the grid and must navigate towards cells containing positive rewards while avoiding negative rewards. The agent uses the **Deep Q-Network (DQN)** and **Proximal Policy Optimization (PPO)** methods to learn the best policies for the given environment.
