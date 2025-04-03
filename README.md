@@ -74,8 +74,8 @@ The environment consists of a 5x5 grid with the following features:
 - **PPO:** The entropy values for the policy are tracked to ensure stable updates.
 
 ### Episodes to Convergence
-- **DQN:** Took ~30,000 episodes to reach stable performance.
-- **PPO:** Took ~50,000 episodes for convergence.
+- **DQN:** Took 15,000 episodes to reach stable performance.
+- **PPO:** Took 20,000 episodes for convergence.
 
 ### Generalization
 - Both trained models were tested on unseen initial states to evaluate their generalization ability.
